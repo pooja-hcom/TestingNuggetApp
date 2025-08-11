@@ -19,7 +19,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import { useNuggetSDK } from './NuggetSDKProvider';
 
-const chatDeeplink = 'housing://unified-support/conversation?flowType=ticketing&omniTicketingFlow=true'
+const chatDeeplink = 'abc://unified-support/conversation?flowType=ticketing&omniTicketingFlow=true'
 
 function Section({ children, title }) {
   const isDarkMode = useColorScheme() === 'dark';
